@@ -13,7 +13,7 @@ export function Projects() {
         <SectionHeading
           eyebrow="Projects"
           title="Selected work"
-          description="Projects spanning backend systems, AI/ML, security automation, and research."
+          description="Enterprise backend systems, security automation, AI/ML platforms, and research."
         />
 
         <div className="grid gap-6 lg:grid-cols-2">

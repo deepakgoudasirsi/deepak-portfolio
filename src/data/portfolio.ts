@@ -168,41 +168,70 @@ export const portfolio: PortfolioData = {
   ],
   projects: [
     {
-      title: "AI Security Chatbot",
+      title: "Smart Hospital Management & Telemedicine Platform",
       description:
-        "An AI-powered chatbot focused on cybersecurity knowledge and assistance.",
-      technologies: ["Python", "FastAPI", "AI/ML", "PostgreSQL"],
-      githubUrl: `${github}/AI-Security-Chatbot`,
-      gradient: "from-violet-600 via-purple-600 to-indigo-700",
+        "Enterprise healthcare platform with patient management, appointments, telemedicine, billing, pharmacy workflows, and EHR. Secure REST APIs, JWT auth, Kafka notifications, Redis caching, and Dockerized microservices.",
+      technologies: [
+        "Java",
+        "Spring Boot",
+        "Microservices",
+        "Kafka",
+        "Redis",
+        "PostgreSQL",
+        "Docker",
+      ],
+      githubUrl: `${github}/smart-hospital-platform`,
+      gradient: "from-sky-600 via-blue-600 to-indigo-700",
     },
     {
-      title: "Backend-as-a-Service Platform",
+      title: "FinGuard AI — Fraud Detection & AML Platform",
       description:
-        "A backend platform providing authentication, APIs, databases, and backend services.",
-      technologies: ["Python", "FastAPI", "PostgreSQL", "JWT", "Docker"],
-      githubUrl: `${github}/Backend-as-a-Service-BaaS-Platform`,
-      gradient: "from-cyan-600 via-blue-600 to-indigo-700",
-    },
-    {
-      title: "Smart Video Summarizer",
-      description:
-        "An application that processes videos and generates intelligent summaries.",
-      technologies: ["Python", "AI/ML", "NLP", "Streamlit"],
-      githubUrl: `${github}/smart-video-summarizer`,
+        "Enterprise fraud detection and AML workflow platform analyzing financial transactions with ensemble ML, anomaly detection, and explainable AI for real-time fraud scoring and suspicious activity monitoring.",
+      technologies: [
+        "Python",
+        "Machine Learning",
+        "FastAPI",
+        "Anomaly Detection",
+        "XAI",
+      ],
+      githubUrl: `${github}/ai-financial-workflow`,
       gradient: "from-emerald-600 via-teal-600 to-cyan-700",
     },
     {
-      title: "Secure SLM",
+      title: "Secure-SLM",
       description:
-        "A lightweight secure language model for network threat detection and security log analysis.",
-      technologies: ["Python", "Security", "Machine Learning"],
+        "Lightweight cybersecurity assistant for SOC-style log analysis combining rule-based IDS, ML classification, MITRE ATT&CK retrieval, and local SLM explanations. Runs fully offline for privacy-sensitive environments.",
+      technologies: [
+        "Python",
+        "FastAPI",
+        "scikit-learn",
+        "SQLAlchemy",
+        "Docker",
+        "CI/CD",
+      ],
       githubUrl: `${github}/Secure-SLM`,
       gradient: "from-rose-600 via-red-600 to-orange-700",
     },
     {
+      title: "Backend-as-a-Service Platform",
+      description:
+        "Firebase-inspired backend platform with authentication, storage, email APIs, and flexible data services. Multi-tenant architecture with JWT/OAuth and scalable API-driven development.",
+      technologies: ["Python", "FastAPI", "PostgreSQL", "JWT", "OAuth", "Docker"],
+      githubUrl: `${github}/Backend-as-a-Service-BaaS-Platform`,
+      gradient: "from-cyan-600 via-blue-600 to-indigo-700",
+    },
+    {
+      title: "AI Security Chatbot",
+      description:
+        "Full-stack cybersecurity awareness assistant educating users on phishing, password attacks, and social engineering with AI-powered responses and real-time threat classification.",
+      technologies: ["Python", "Flask", "AI/ML", "PostgreSQL"],
+      githubUrl: `${github}/AI-Security-Chatbot`,
+      gradient: "from-violet-600 via-purple-600 to-indigo-700",
+    },
+    {
       title: "Weakly Supervised Learning Framework",
       description:
-        "M.Tech research project focused on machine learning with limited labeled data.",
+        "M.Tech research system training high-accuracy models with limited labeled data via pseudo-labeling, consistency regularization, and noise-robust learning.",
       technologies: ["Python", "PyTorch", "TensorFlow", "Machine Learning"],
       achievements: [
         "98.26% accuracy on MNIST using only 10% labeled data.",
@@ -246,6 +275,6 @@ export const portfolio: PortfolioData = {
     description:
       "Portfolio of Deepak Gouda — Software Developer, Backend Engineer, and Instructor specializing in cloud, AI/ML, and scalable systems.",
     url: "https://deepakgoudasirsi.github.io/deepak-portfolio",
-    ogImage: "/deepak-portfolio/opengraph-image",
+    ogImage: "/opengraph-image",
   },
 };
