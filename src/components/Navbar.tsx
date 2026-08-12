@@ -56,9 +56,11 @@ export function Navbar() {
             links={portfolio.socialLinks.filter((link) => link.icon !== "email")}
             className="mr-1"
           />
-          <Button href={portfolio.resumeUrl} variant="secondary" external>
-            Resume
-          </Button>
+          {portfolio.resumeUrl ? (
+            <Button href={portfolio.resumeUrl} variant="secondary" external>
+              Resume
+            </Button>
+          ) : null}
           <button
             onClick={toggleTheme}
             aria-label="Toggle theme"
@@ -119,9 +121,11 @@ export function Navbar() {
               ))}
               <div className="flex items-center justify-between pt-3">
                 <SocialIcons links={portfolio.socialLinks} />
-                <Button href={portfolio.resumeUrl} variant="secondary" external>
-                  Resume
-                </Button>
+                {portfolio.resumeUrl ? (
+                  <Button href={portfolio.resumeUrl} variant="secondary" external>
+                    Resume
+                  </Button>
+                ) : null}
               </div>
             </div>
           </motion.div>

@@ -1,28 +1,30 @@
 import type { PortfolioData } from "@/types/portfolio";
 
-// Update links, resume URL, and personal details here.
+const github = "https://github.com/deepakgoudasirsi";
+
 export const portfolio: PortfolioData = {
   name: "Deepak Gouda",
   title: "Software Developer | Backend Engineer | Instructor",
   tagline: "Hi, I'm Deepak Gouda 👋",
   intro:
     "I build scalable software, backend systems, cloud solutions, and intelligent applications. I am passionate about software engineering, problem-solving, AI, and teaching.",
-  email: "deepakgouda@example.com", // TODO: Replace with your email
-  resumeUrl: "/resume.pdf", // TODO: Add resume.pdf to public/ or update URL
+  email: "deepakgoudasirsi@gmail.com",
+  // Add public/resume.pdf, then uncomment:
+  // resumeUrl: "/resume.pdf",
   socialLinks: [
     {
       name: "GitHub",
-      url: "https://github.com/yourusername", // TODO: Replace
+      url: github,
       icon: "github",
     },
     {
       name: "LinkedIn",
-      url: "https://linkedin.com/in/yourusername", // TODO: Replace
+      url: "https://linkedin.com/in/deepakgoudasirsi",
       icon: "linkedin",
     },
     {
       name: "Email",
-      url: "mailto:deepakgouda@example.com", // TODO: Replace
+      url: "mailto:deepakgoudasirsi@gmail.com",
       icon: "email",
     },
   ],
@@ -64,9 +66,9 @@ export const portfolio: PortfolioData = {
   ],
   experience: [
     {
-      title: "Software Engineer Intern",
+      title: "System Engineering Intern",
       company: "Swiggy",
-      subtitle: "Systems Engineering",
+      subtitle: "Security & Platform Engineering",
       technologies: [
         "Python",
         "Go",
@@ -75,14 +77,15 @@ export const portfolio: PortfolioData = {
         "GitHub Actions",
         "CI/CD",
         "Docker",
-        "Linux",
+        "Databricks",
+        "Orca CLI",
       ],
       responsibilities: [
-        "Integrated security tools into CI/CD pipelines.",
-        "Worked on secret scanning and SAST automation.",
-        "Automated AWS ECR image analysis and cleanup.",
-        "Built automation using Python, Go, Bash, and AWS services.",
-        "Improved security workflows and developer productivity.",
+        "Integrated Orca CLI into CI/CD pipelines for secret scanning and SAST automation.",
+        "Connected security pipelines to Apollo GitHub workflows for real-time PR checks.",
+        "Authored developer SOPs for secret rotation across AWS, GitHub, GCP, and Slack.",
+        "Automated AWS ECR image analysis and cleanup via lifecycle policies.",
+        "Built security reporting data pipelines using Databricks.",
       ],
     },
     {
@@ -169,8 +172,7 @@ export const portfolio: PortfolioData = {
       description:
         "An AI-powered chatbot focused on cybersecurity knowledge and assistance.",
       technologies: ["Python", "FastAPI", "AI/ML", "PostgreSQL"],
-      githubUrl: "https://github.com/yourusername/ai-security-chatbot", // TODO
-      liveUrl: "#", // TODO
+      githubUrl: `${github}/AI-Security-Chatbot`,
       gradient: "from-violet-600 via-purple-600 to-indigo-700",
     },
     {
@@ -178,8 +180,7 @@ export const portfolio: PortfolioData = {
       description:
         "A backend platform providing authentication, APIs, databases, and backend services.",
       technologies: ["Python", "FastAPI", "PostgreSQL", "JWT", "Docker"],
-      githubUrl: "https://github.com/yourusername/baas-platform", // TODO
-      liveUrl: "#", // TODO
+      githubUrl: `${github}/Backend-as-a-Service-BaaS-Platform`,
       gradient: "from-cyan-600 via-blue-600 to-indigo-700",
     },
     {
@@ -187,17 +188,15 @@ export const portfolio: PortfolioData = {
       description:
         "An application that processes videos and generates intelligent summaries.",
       technologies: ["Python", "AI/ML", "NLP", "Streamlit"],
-      githubUrl: "https://github.com/yourusername/video-summarizer", // TODO
-      liveUrl: "#", // TODO
+      githubUrl: `${github}/smart-video-summarizer`,
       gradient: "from-emerald-600 via-teal-600 to-cyan-700",
     },
     {
-      title: "GitHub Secrets Detector",
+      title: "Secure SLM",
       description:
-        "A security-focused tool for detecting exposed secrets and credentials in GitHub repositories.",
-      technologies: ["Python", "GitHub API", "Security Automation"],
-      githubUrl: "https://github.com/yourusername/secrets-detector", // TODO
-      liveUrl: "#", // TODO
+        "A lightweight secure language model for network threat detection and security log analysis.",
+      technologies: ["Python", "Security", "Machine Learning"],
+      githubUrl: `${github}/Secure-SLM`,
       gradient: "from-rose-600 via-red-600 to-orange-700",
     },
     {
@@ -209,8 +208,7 @@ export const portfolio: PortfolioData = {
         "98.26% accuracy on MNIST using only 10% labeled data.",
         "89.3% accuracy on CIFAR-10.",
       ],
-      githubUrl: "https://github.com/yourusername/wsl-framework", // TODO
-      liveUrl: "#", // TODO
+      githubUrl: `${github}/WSL-Framework`,
       gradient: "from-amber-600 via-orange-600 to-rose-700",
     },
   ],
@@ -247,7 +245,7 @@ export const portfolio: PortfolioData = {
     title: "Deepak Gouda | Software Developer & Instructor",
     description:
       "Portfolio of Deepak Gouda — Software Developer, Backend Engineer, and Instructor specializing in cloud, AI/ML, and scalable systems.",
-    url: "https://deepakgouda.dev", // TODO: Replace with your domain
-    ogImage: "/opengraph-image", // Auto-generated by src/app/opengraph-image.tsx
+    url: "https://deepakgoudasirsi.vercel.app",
+    ogImage: "/opengraph-image",
   },
 };

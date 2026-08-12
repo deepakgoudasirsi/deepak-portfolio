@@ -27,7 +27,7 @@ export type Project = {
   description: string;
   technologies: string[];
   githubUrl: string;
-  liveUrl: string;
+  liveUrl?: string;
   achievements?: string[];
   gradient: string;
 };
@@ -50,7 +50,7 @@ export type PortfolioData = {
   tagline: string;
   intro: string;
   email: string;
-  resumeUrl: string;
+  resumeUrl?: string;
   socialLinks: SocialLink[];
   navItems: NavItem[];
   interests: string[];

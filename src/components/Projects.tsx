@@ -64,10 +64,12 @@ export function Projects() {
                     <GitHubButtonIcon className="h-4 w-4" />
                     GitHub
                   </Button>
-                  <Button href={project.liveUrl} variant="ghost" external>
-                    <ExternalLink className="h-4 w-4" />
-                    Live Demo
-                  </Button>
+                  {project.liveUrl ? (
+                    <Button href={project.liveUrl} variant="ghost" external>
+                      <ExternalLink className="h-4 w-4" />
+                      Live Demo
+                    </Button>
+                  ) : null}
                 </div>
               </div>
             </article>

@@ -81,10 +81,12 @@ export function Hero() {
           className="mt-10 flex flex-wrap gap-4"
         >
           <Button onClick={scrollToProjects}>View My Work</Button>
-          <Button href={portfolio.resumeUrl} variant="secondary" external>
-            <Download className="h-4 w-4" />
-            Download Resume
-          </Button>
+          {portfolio.resumeUrl ? (
+            <Button href={portfolio.resumeUrl} variant="secondary" external>
+              <Download className="h-4 w-4" />
+              Download Resume
+            </Button>
+          ) : null}
           <Button onClick={scrollToContact} variant="secondary">
             <Mail className="h-4 w-4" />
             Contact Me

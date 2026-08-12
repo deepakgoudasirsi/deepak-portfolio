@@ -12,6 +12,14 @@ export function Contact() {
 
   const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
+    const formData = new FormData(event.currentTarget);
+    const name = String(formData.get("name") ?? "");
+    const email = String(formData.get("email") ?? "");
+    const subject = String(formData.get("subject") ?? "");
+    const message = String(formData.get("message") ?? "");
+    const body = `From: ${name} (${email})\n\n${message}`;
+
+    window.location.href = `mailto:${portfolio.email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
     setSubmitted(true);
   };
 
@@ -84,8 +92,15 @@ export function Contact() {
             </Button>
             {submitted ? (
               <p className="text-sm text-accent">
-                Thanks for reaching out! Connect the form to a service like
-                Formspree or Resend to enable delivery.
+                Your email client should open shortly. If it does not, reach out
+                directly at{" "}
+                <a
+                  href={`mailto:${portfolio.email}`}
+                  className="underline underline-offset-2"
+                >
+                  {portfolio.email}
+                </a>
+                .
               </p>
             ) : null}
           </form>
