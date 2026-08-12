@@ -20,7 +20,9 @@ npm install
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) to view the site.
+Open [http://localhost:3000](http://localhost:3000) to view the site locally.
+
+**Live site:** [https://deepakgoudasirsi.github.io/deepak-portfolio/](https://deepakgoudasirsi.github.io/deepak-portfolio/)
 
 ## Customize Content
 
