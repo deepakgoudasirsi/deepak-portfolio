@@ -245,7 +245,7 @@ export const portfolio: PortfolioData = {
     title: "Deepak Gouda | Software Developer & Instructor",
     description:
       "Portfolio of Deepak Gouda — Software Developer, Backend Engineer, and Instructor specializing in cloud, AI/ML, and scalable systems.",
-    url: "https://deepakgoudasirsi.vercel.app",
-    ogImage: "/opengraph-image",
+    url: "https://deepakgoudasirsi.github.io/deepak-portfolio",
+    ogImage: "/deepak-portfolio/opengraph-image",
   },
 };

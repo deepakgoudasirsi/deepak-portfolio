@@ -1,6 +1,8 @@
 import { ImageResponse } from "next/og";
 import { portfolio } from "@/data/portfolio";
 
+export const dynamic = "force-static";
+
 export const alt = `${portfolio.name} portfolio`;
 export const size = {
   width: 1200,
