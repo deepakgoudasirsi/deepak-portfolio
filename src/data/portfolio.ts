@@ -40,7 +40,7 @@ export const portfolio: PortfolioData = {
   ],
   about: {
     summary:
-      "Software engineer specializing in backend development, cloud infrastructure, cybersecurity, and AI/ML. Ex-Swiggy intern with hands-on experience in CI/CD security automation, and currently building production software at Bosscoder.",
+      "Software engineer specializing in backend development, cloud infrastructure, cybersecurity, and AI/ML. Ex-Swiggy intern with CI/CD security automation experience, and currently a Software Developer and Instructor at Bosscoder.",
     educationHighlights: [
       {
         degree: "M.Tech in Computer Science and Engineering",
