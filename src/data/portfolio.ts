@@ -4,11 +4,13 @@ const github = "https://github.com/deepakgoudasirsi";
 
 export const portfolio: PortfolioData = {
   name: "Deepak Gouda",
-  title: "Backend Engineer | Ex-Swiggy Intern | M.Tech CSE",
-  tagline: "Hi, I'm Deepak Gouda",
+  title: "Software Engineer | Backend & Cloud",
+  tagline: "Hi, I'm Deepak Gouda 👋",
   intro:
-    "Backend engineer with M.Tech in Computer Science and intern experience at Swiggy in CI/CD security automation, AWS, and platform engineering. I build backend services, cloud pipelines, and security tooling with Python, Go, Java, and FastAPI.",
+    "I build scalable backend systems, cloud-native platforms, and security-focused applications. Experienced in microservices, CI/CD automation, and AI/ML integration for production environments.",
   email: "deepakgoudasirsi@gmail.com",
+  // Add public/resume.pdf, then uncomment:
+  // resumeUrl: "/resume.pdf",
   socialLinks: [
     {
       name: "GitHub",
@@ -38,7 +40,7 @@ export const portfolio: PortfolioData = {
   ],
   about: {
     summary:
-      "M.Tech CSE graduate from RV College of Engineering with backend and security engineering experience at Swiggy. Currently working as a Software Developer at Bosscoder.",
+      "Software engineer specializing in backend development, cloud infrastructure, cybersecurity, and AI/ML. Ex-Swiggy intern with hands-on experience in CI/CD security automation, and currently building production software at Bosscoder.",
     educationHighlights: [
       {
         degree: "M.Tech in Computer Science and Engineering",
@@ -54,10 +56,13 @@ export const portfolio: PortfolioData = {
   },
   interests: [
     "Backend Engineering",
-    "Cloud & DevOps",
+    "Distributed Systems",
+    "Cloud Computing",
     "Cybersecurity",
     "System Design",
-    "Machine Learning",
+    "Microservices",
+    "DevOps & CI/CD",
+    "Artificial Intelligence",
   ],
   experience: [
     {
@@ -88,32 +93,59 @@ export const portfolio: PortfolioData = {
       title: "Software Developer",
       company: "Bosscoder",
       period: "2025 – Present",
-      technologies: ["JavaScript", "React", "Node.js", "Git"],
+      technologies: ["JavaScript", "TypeScript", "React", "Node.js", "Python"],
       responsibilities: [
-        "Develop and maintain web applications using JavaScript, React, and Node.js.",
-        "Build backend APIs and debug production issues in existing codebases.",
+        "Build and maintain web applications, backend services, and internal software products.",
+        "Implement REST APIs, database integrations, and application features end to end.",
+        "Write clean, tested code and participate in code reviews and debugging.",
+        "Collaborate with the team on scalable architecture and delivery of software projects.",
       ],
     },
   ],
   skillCategories: [
     {
-      title: "Languages",
-      skills: ["Python", "Java", "Go", "JavaScript", "TypeScript", "SQL", "Bash"],
+      title: "Programming Languages",
+      skills: [
+        "Python",
+        "Java",
+        "JavaScript",
+        "TypeScript",
+        "SQL",
+        "Bash",
+      ],
     },
     {
-      title: "Backend",
+      title: "Backend Development",
       skills: [
         "Spring Boot",
         "FastAPI",
         "Flask",
+        "Django",
         "Node.js",
+        "Express.js",
         "Microservices",
         "REST APIs",
         "JWT",
+        "OAuth",
       ],
     },
     {
-      title: "Cloud & DevOps",
+      title: "Frontend",
+      skills: [
+        "React",
+        "Next.js",
+        "TypeScript",
+        "HTML",
+        "CSS",
+        "Tailwind CSS",
+      ],
+    },
+    {
+      title: "Databases",
+      skills: ["PostgreSQL", "MySQL", "MongoDB", "SQLite", "pgvector"],
+    },
+    {
+      title: "Cloud and DevOps",
       skills: [
         "AWS",
         "Docker",
@@ -122,19 +154,30 @@ export const portfolio: PortfolioData = {
         "GitHub Actions",
         "CI/CD",
         "Linux",
+        "Git",
+        "GitHub",
       ],
     },
     {
-      title: "Databases",
-      skills: ["PostgreSQL", "MySQL", "MongoDB", "SQLite"],
-    },
-    {
       title: "Security",
-      skills: ["SAST", "Secret Scanning", "CI/CD Security", "MITRE ATT&CK"],
+      skills: [
+        "SAST",
+        "Secret Scanning",
+        "MITRE ATT&CK",
+        "SOC Log Analysis",
+        "IDS",
+        "Cybersecurity",
+      ],
     },
     {
-      title: "AI / ML",
-      skills: ["PyTorch", "TensorFlow", "scikit-learn"],
+      title: "AI and Machine Learning",
+      skills: [
+        "PyTorch",
+        "TensorFlow",
+        "Scikit-learn",
+        "Pandas",
+        "NumPy",
+      ],
     },
   ],
   projects: [
@@ -142,10 +185,11 @@ export const portfolio: PortfolioData = {
       title: "Smart Hospital & Telemedicine Platform",
       period: "May 2026 – Jun 2026",
       description:
-        "Healthcare platform with patient management, appointments, telemedicine, and EHR. REST APIs, JWT auth, Kafka, Redis, and Dockerized microservices.",
+        "Enterprise healthcare platform with patient management, appointments, telemedicine, billing, pharmacy workflows, and EHR. Secure REST APIs, JWT auth, Kafka notifications, Redis caching, and Dockerized microservices.",
       technologies: [
         "Java",
         "Spring Boot",
+        "Microservices",
         "Kafka",
         "Redis",
         "PostgreSQL",
@@ -158,8 +202,14 @@ export const portfolio: PortfolioData = {
       title: "FinGuard AI — Fraud Detection & AML",
       period: "Jan 2026 – Mar 2026",
       description:
-        "Fraud detection platform for financial transactions using ensemble ML, anomaly detection, and explainable AI for real-time risk scoring.",
-      technologies: ["Python", "FastAPI", "Machine Learning"],
+        "Enterprise fraud detection and AML workflow platform analyzing financial transactions with ensemble ML, anomaly detection, and explainable AI for real-time fraud scoring and suspicious activity monitoring.",
+      technologies: [
+        "Python",
+        "Machine Learning",
+        "FastAPI",
+        "Anomaly Detection",
+        "XAI",
+      ],
       githubUrl: `${github}/ai-financial-workflow`,
       gradient: "from-emerald-600 via-teal-600 to-cyan-700",
     },
@@ -167,8 +217,15 @@ export const portfolio: PortfolioData = {
       title: "Secure-SLM",
       period: "Apr 2026 – May 2026",
       description:
-        "Cybersecurity assistant for SOC log analysis with rule-based IDS, ML classification, and MITRE ATT&CK retrieval. Runs offline for privacy-sensitive use.",
-      technologies: ["Python", "FastAPI", "scikit-learn", "Docker"],
+        "Lightweight cybersecurity assistant for SOC-style log analysis combining rule-based IDS, ML classification, MITRE ATT&CK retrieval, and local SLM explanations. Runs fully offline for privacy-sensitive environments.",
+      technologies: [
+        "Python",
+        "FastAPI",
+        "scikit-learn",
+        "SQLAlchemy",
+        "Docker",
+        "CI/CD",
+      ],
       githubUrl: `${github}/Secure-SLM`,
       gradient: "from-rose-600 via-red-600 to-orange-700",
     },
@@ -176,19 +233,28 @@ export const portfolio: PortfolioData = {
       title: "Backend-as-a-Service Platform",
       period: "May 2025 – Aug 2025",
       description:
-        "Backend platform with authentication, storage, email APIs, and data services. JWT-based auth and PostgreSQL-backed REST APIs.",
-      technologies: ["Python", "FastAPI", "PostgreSQL", "JWT", "Docker"],
+        "Firebase-inspired backend platform with authentication, storage, email APIs, and flexible data services. Multi-tenant architecture with JWT/OAuth and scalable API-driven development.",
+      technologies: ["Python", "FastAPI", "PostgreSQL", "JWT", "OAuth", "Docker"],
       githubUrl: `${github}/Backend-as-a-Service-BaaS-Platform`,
       gradient: "from-cyan-600 via-blue-600 to-indigo-700",
+    },
+    {
+      title: "AI Security Chatbot",
+      period: "Jun 2025 – Sep 2025",
+      description:
+        "Full-stack cybersecurity awareness assistant educating users on phishing, password attacks, and social engineering with AI-powered responses and real-time threat classification.",
+      technologies: ["Python", "Flask", "AI/ML", "PostgreSQL"],
+      githubUrl: `${github}/AI-Security-Chatbot`,
+      gradient: "from-violet-600 via-purple-600 to-indigo-700",
     },
     {
       title: "Weakly Supervised Learning Framework",
       period: "Apr 2025 – Dec 2025",
       description:
-        "M.Tech research project for training models with limited labeled data using pseudo-labeling and consistency regularization.",
-      technologies: ["Python", "PyTorch", "TensorFlow"],
+        "M.Tech research system training high-accuracy models with limited labeled data via pseudo-labeling, consistency regularization, and noise-robust learning.",
+      technologies: ["Python", "PyTorch", "TensorFlow", "Machine Learning"],
       achievements: [
-        "98.26% accuracy on MNIST with 10% labeled data.",
+        "98.26% accuracy on MNIST using only 10% labeled data.",
         "89.3% accuracy on CIFAR-10.",
       ],
       githubUrl: `${github}/WSL-Framework`,
@@ -211,11 +277,23 @@ export const portfolio: PortfolioData = {
   certifications: [
     { title: "AWS Educate Machine Learning Foundations", issuer: "AWS Educate" },
     { title: "Cisco Python Essentials", issuer: "Cisco" },
+    {
+      title: "Walmart USA Software Engineering Job Simulation",
+      issuer: "Forage",
+    },
+    {
+      title: "JPMorgan Chase Software Engineering Job Simulation",
+      issuer: "Forage",
+    },
+    {
+      title: "Deloitte Australia Technology Job Simulation",
+      issuer: "Forage",
+    },
   ],
   seo: {
-    title: "Deepak Gouda | Backend Engineer | Ex-Swiggy",
+    title: "Deepak Gouda | Software Engineer — Backend & Cloud",
     description:
-      "Backend engineer with Swiggy intern experience in CI/CD security, AWS, and platform engineering. M.Tech CSE from RV College of Engineering.",
+      "Portfolio of Deepak Gouda — Software Engineer focused on backend systems, microservices, cloud, cybersecurity, and AI/ML. Ex-Swiggy intern.",
     url: "https://deepakgoudasirsi.github.io/deepak-portfolio",
     ogImage: "/opengraph-image",
   },

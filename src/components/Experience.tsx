@@ -10,7 +10,7 @@ export function Experience() {
         <SectionHeading
           eyebrow="Experience"
           title="Professional journey"
-          description="Industry experience in backend engineering, cloud automation, and security."
+          description="Hands-on experience in backend engineering, cloud automation, security, and production software development."
         />
 
         <div className="relative space-y-8 before:absolute before:left-[19px] before:top-2 before:h-[calc(100%-1rem)] before:w-px before:bg-border sm:before:left-[23px]">

@@ -19,12 +19,12 @@ export const metadata: Metadata = {
   description: portfolio.seo.description,
   keywords: [
     "Deepak Gouda",
+    "Software Engineer",
     "Backend Engineer",
-    "Swiggy",
-    "M.Tech CSE",
-    "AWS",
-    "CI/CD",
+    "Microservices",
     "Cybersecurity",
+    "Cloud",
+    "AI/ML",
   ],
   authors: [{ name: portfolio.name }],
   openGraph: {
