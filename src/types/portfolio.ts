@@ -12,6 +12,7 @@ export type SocialLink = {
 export type Experience = {
   title: string;
   company: string;
+  period?: string;
   subtitle?: string;
   technologies?: string[];
   responsibilities: string[];
@@ -24,6 +25,7 @@ export type SkillCategory = {
 
 export type Project = {
   title: string;
+  period?: string;
   description: string;
   technologies: string[];
   githubUrl: string;

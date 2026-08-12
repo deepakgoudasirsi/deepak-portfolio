@@ -30,9 +30,16 @@ export function Projects() {
                 </span>
               </div>
               <div className="p-6 sm:p-8">
-                <h3 className="text-xl font-semibold text-foreground">
-                  {project.title}
-                </h3>
+                <div className="flex flex-wrap items-start justify-between gap-3">
+                  <h3 className="text-xl font-semibold leading-snug text-foreground">
+                    {project.title}
+                  </h3>
+                  {project.period ? (
+                    <span className="shrink-0 rounded-full bg-surface px-3 py-1 text-xs text-muted">
+                      {project.period}
+                    </span>
+                  ) : null}
+                </div>
                 <p className="mt-3 text-sm leading-7 text-muted">
                   {project.description}
                 </p>

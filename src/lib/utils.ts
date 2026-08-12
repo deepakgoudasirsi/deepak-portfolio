@@ -6,9 +6,12 @@ export function cn(...inputs: ClassValue[]) {
 }
 
 export function getInitials(title: string): string {
-  return title
-    .split(" ")
-    .filter(Boolean)
+  const words = title
+    .split(/[\s—–-]+/)
+    .map((word) => word.replace(/[^a-zA-Z0-9]/g, ""))
+    .filter((word) => word.length > 0);
+
+  return words
     .slice(0, 2)
     .map((word) => word[0]?.toUpperCase() ?? "")
     .join("");

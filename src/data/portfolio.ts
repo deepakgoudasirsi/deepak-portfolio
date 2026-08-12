@@ -7,7 +7,7 @@ export const portfolio: PortfolioData = {
   title: "Software Developer | Backend Engineer | Instructor",
   tagline: "Hi, I'm Deepak Gouda 👋",
   intro:
-    "I build scalable software, backend systems, cloud solutions, and intelligent applications. I am passionate about software engineering, problem-solving, AI, and teaching.",
+    "I build scalable backend systems, cloud-native platforms, and security-focused applications. Experienced in microservices, CI/CD automation, and AI/ML — and passionate about teaching the next generation of developers.",
   email: "deepakgoudasirsi@gmail.com",
   // Add public/resume.pdf, then uncomment:
   // resumeUrl: "/resume.pdf",
@@ -40,7 +40,7 @@ export const portfolio: PortfolioData = {
   ],
   about: {
     summary:
-      "I am a Computer Science professional with experience in software development, backend engineering, cloud technologies, security, and AI/ML.",
+      "Computer Science professional specializing in backend engineering, cloud infrastructure, cybersecurity, and AI/ML — with industry experience at Swiggy and hands-on teaching at Bosscoder.",
     educationHighlights: [
       {
         degree: "M.Tech in Computer Science and Engineering",
@@ -68,6 +68,7 @@ export const portfolio: PortfolioData = {
     {
       title: "System Engineering Intern",
       company: "Swiggy",
+      period: "Jan 2025 – Jun 2025",
       subtitle: "Security & Platform Engineering",
       technologies: [
         "Python",
@@ -91,12 +92,12 @@ export const portfolio: PortfolioData = {
     {
       title: "Software Developer + Instructor",
       company: "Bosscoder",
+      period: "2025 – Present",
       responsibilities: [
-        "Working as a Software Developer and Instructor.",
-        "Teaching Web Development and programming concepts.",
-        "Creating learning materials, tutorials, worksheets, and coding exercises.",
-        "Mentoring students in programming and software development.",
-        "Developing and contributing to software projects.",
+        "Develop software projects while teaching web development and programming fundamentals.",
+        "Create learning materials, tutorials, worksheets, and coding exercises.",
+        "Mentor students in programming, debugging, and software development best practices.",
+        "Guide learners through full-stack concepts and real-world project workflows.",
       ],
     },
   ],
@@ -117,11 +118,13 @@ export const portfolio: PortfolioData = {
     {
       title: "Backend Development",
       skills: [
+        "Spring Boot",
         "FastAPI",
         "Flask",
         "Django",
         "Node.js",
         "Express.js",
+        "Microservices",
         "REST APIs",
         "JWT",
         "OAuth",
@@ -147,11 +150,24 @@ export const portfolio: PortfolioData = {
       skills: [
         "AWS",
         "Docker",
+        "Kafka",
+        "Redis",
         "GitHub Actions",
         "CI/CD",
         "Linux",
         "Git",
         "GitHub",
+      ],
+    },
+    {
+      title: "Security",
+      skills: [
+        "SAST",
+        "Secret Scanning",
+        "MITRE ATT&CK",
+        "SOC Log Analysis",
+        "IDS",
+        "Cybersecurity",
       ],
     },
     {
@@ -168,7 +184,8 @@ export const portfolio: PortfolioData = {
   ],
   projects: [
     {
-      title: "Smart Hospital Management & Telemedicine Platform",
+      title: "Smart Hospital & Telemedicine Platform",
+      period: "May 2026 – Jun 2026",
       description:
         "Enterprise healthcare platform with patient management, appointments, telemedicine, billing, pharmacy workflows, and EHR. Secure REST APIs, JWT auth, Kafka notifications, Redis caching, and Dockerized microservices.",
       technologies: [
@@ -184,7 +201,8 @@ export const portfolio: PortfolioData = {
       gradient: "from-sky-600 via-blue-600 to-indigo-700",
     },
     {
-      title: "FinGuard AI — Fraud Detection & AML Platform",
+      title: "FinGuard AI — Fraud Detection & AML",
+      period: "Jan 2026 – Mar 2026",
       description:
         "Enterprise fraud detection and AML workflow platform analyzing financial transactions with ensemble ML, anomaly detection, and explainable AI for real-time fraud scoring and suspicious activity monitoring.",
       technologies: [
@@ -199,6 +217,7 @@ export const portfolio: PortfolioData = {
     },
     {
       title: "Secure-SLM",
+      period: "Apr 2026 – May 2026",
       description:
         "Lightweight cybersecurity assistant for SOC-style log analysis combining rule-based IDS, ML classification, MITRE ATT&CK retrieval, and local SLM explanations. Runs fully offline for privacy-sensitive environments.",
       technologies: [
@@ -214,6 +233,7 @@ export const portfolio: PortfolioData = {
     },
     {
       title: "Backend-as-a-Service Platform",
+      period: "May 2025 – Aug 2025",
       description:
         "Firebase-inspired backend platform with authentication, storage, email APIs, and flexible data services. Multi-tenant architecture with JWT/OAuth and scalable API-driven development.",
       technologies: ["Python", "FastAPI", "PostgreSQL", "JWT", "OAuth", "Docker"],
@@ -222,6 +242,7 @@ export const portfolio: PortfolioData = {
     },
     {
       title: "AI Security Chatbot",
+      period: "Jun 2025 – Sep 2025",
       description:
         "Full-stack cybersecurity awareness assistant educating users on phishing, password attacks, and social engineering with AI-powered responses and real-time threat classification.",
       technologies: ["Python", "Flask", "AI/ML", "PostgreSQL"],
@@ -230,6 +251,7 @@ export const portfolio: PortfolioData = {
     },
     {
       title: "Weakly Supervised Learning Framework",
+      period: "Apr 2025 – Dec 2025",
       description:
         "M.Tech research system training high-accuracy models with limited labeled data via pseudo-labeling, consistency regularization, and noise-robust learning.",
       technologies: ["Python", "PyTorch", "TensorFlow", "Machine Learning"],
@@ -273,7 +295,7 @@ export const portfolio: PortfolioData = {
   seo: {
     title: "Deepak Gouda | Software Developer & Instructor",
     description:
-      "Portfolio of Deepak Gouda — Software Developer, Backend Engineer, and Instructor specializing in cloud, AI/ML, and scalable systems.",
+      "Portfolio of Deepak Gouda — Backend Engineer and Instructor specializing in microservices, cloud, cybersecurity, and AI/ML systems.",
     url: "https://deepakgoudasirsi.github.io/deepak-portfolio",
     ogImage: "/opengraph-image",
   },

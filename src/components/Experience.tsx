@@ -31,7 +31,7 @@ export function Experience() {
                     </p>
                   </div>
                   <span className="rounded-full bg-surface px-3 py-1 text-xs text-muted">
-                    {String(index + 1).padStart(2, "0")}
+                    {item.period ?? String(index + 1).padStart(2, "0")}
                   </span>
                 </div>
 

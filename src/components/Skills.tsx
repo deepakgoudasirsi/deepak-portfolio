@@ -5,12 +5,13 @@ import {
   Database,
   Layers,
   Server,
+  Shield,
 } from "lucide-react";
 import { portfolio } from "@/data/portfolio";
 import { AnimatedSection } from "@/components/ui/AnimatedSection";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 
-const categoryIcons = [Code2, Server, Layers, Database, Cloud, Brain];
+const categoryIcons = [Code2, Server, Layers, Database, Cloud, Shield, Brain];
 
 export function Skills() {
   return (
