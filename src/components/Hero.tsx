@@ -62,10 +62,18 @@ export function Hero() {
           initial={{ opacity: 0, y: 24 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.1 }}
-          className="max-w-4xl text-2xl font-bold leading-tight tracking-tight text-foreground sm:text-3xl lg:text-4xl xl:text-5xl"
+          className="text-4xl font-bold tracking-tight text-foreground sm:text-5xl lg:text-6xl"
+        >
+          {portfolio.name}
+        </motion.h1>
+        <motion.p
+          initial={{ opacity: 0, y: 24 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, delay: 0.15 }}
+          className="mt-4 max-w-4xl text-lg font-medium leading-relaxed text-accent sm:text-xl lg:text-2xl"
         >
           {portfolio.title}
-        </motion.h1>
+        </motion.p>
         <motion.p
           initial={{ opacity: 0, y: 24 }}
           animate={{ opacity: 1, y: 0 }}
