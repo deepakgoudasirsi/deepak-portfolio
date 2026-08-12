@@ -40,7 +40,7 @@ export const portfolio: PortfolioData = {
   ],
   about: {
     summary:
-      "Software engineer specializing in backend development, cloud infrastructure, cybersecurity, and AI/ML. Ex-Swiggy intern with CI/CD security automation experience, and currently a Software Developer and Instructor at Bosscoder.",
+      "Software engineer specializing in backend development, cloud infrastructure, cybersecurity, and AI/ML. Ex-Swiggy intern with hands-on experience in CI/CD security automation, and currently building production software at Bosscoder.",
     educationHighlights: [
       {
         degree: "M.Tech in Computer Science and Engineering",
@@ -90,16 +90,15 @@ export const portfolio: PortfolioData = {
       ],
     },
     {
-      title: "Software Developer + Instructor",
+      title: "Software Development Engineer",
       company: "Bosscoder",
       period: "2025 – Present",
       technologies: ["JavaScript", "TypeScript", "React", "Node.js", "Python"],
       responsibilities: [
-        "Work as a Software Developer and Instructor at Bosscoder.",
-        "Teach web development and programming concepts.",
-        "Create learning materials, tutorials, worksheets, and coding exercises.",
-        "Mentor students in programming and software development.",
-        "Develop and contribute to software projects.",
+        "Build and maintain web applications, backend services, and internal software products.",
+        "Implement REST APIs, database integrations, and application features end to end.",
+        "Write clean, tested code and participate in code reviews and debugging.",
+        "Collaborate with the team on scalable architecture and delivery of software projects.",
       ],
     },
   ],
