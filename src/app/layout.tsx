@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     "Deepak Gouda",
     "Software Developer",
     "Backend Engineer",
-    "Instructor",
+    "Backend Engineer",
     "Portfolio",
     "Cloud",
     "AI/ML",

@@ -4,10 +4,10 @@ const github = "https://github.com/deepakgoudasirsi";
 
 export const portfolio: PortfolioData = {
   name: "Deepak Gouda",
-  title: "Software Developer | Backend Engineer | Instructor",
+  title: "Software Developer | Backend Engineer | Cloud & Security",
   tagline: "Hi, I'm Deepak Gouda 👋",
   intro:
-    "I build scalable backend systems, cloud-native platforms, and security-focused applications. Experienced in microservices, CI/CD automation, and AI/ML — and passionate about teaching the next generation of developers.",
+    "I build scalable backend systems, cloud-native platforms, and security-focused applications. Experienced in microservices, CI/CD automation, and AI/ML — with a strong focus on shipping reliable production software.",
   email: "deepakgoudasirsi@gmail.com",
   // Add public/resume.pdf, then uncomment:
   // resumeUrl: "/resume.pdf",
@@ -40,7 +40,7 @@ export const portfolio: PortfolioData = {
   ],
   about: {
     summary:
-      "Computer Science professional specializing in backend engineering, cloud infrastructure, cybersecurity, and AI/ML — with industry experience at Swiggy and hands-on teaching at Bosscoder.",
+      "Computer Science professional specializing in backend engineering, cloud infrastructure, cybersecurity, and AI/ML — with industry experience at Swiggy and hands-on software development at Bosscoder.",
     educationHighlights: [
       {
         degree: "M.Tech in Computer Science and Engineering",
@@ -62,7 +62,8 @@ export const portfolio: PortfolioData = {
     "Artificial Intelligence",
     "Machine Learning",
     "System Design",
-    "Teaching and Technology Education",
+    "Distributed Systems",
+    "API Design",
   ],
   experience: [
     {
@@ -90,14 +91,15 @@ export const portfolio: PortfolioData = {
       ],
     },
     {
-      title: "Software Developer + Instructor",
+      title: "Software Developer",
       company: "Bosscoder",
       period: "2025 – Present",
+      technologies: ["JavaScript", "React", "Node.js", "REST APIs", "Git"],
       responsibilities: [
-        "Develop software projects while teaching web development and programming fundamentals.",
-        "Create learning materials, tutorials, worksheets, and coding exercises.",
-        "Mentor students in programming, debugging, and software development best practices.",
-        "Guide learners through full-stack concepts and real-world project workflows.",
+        "Design and develop web applications and backend services for production use.",
+        "Implement full-stack features using modern JavaScript, React, and Node.js.",
+        "Debug, optimize, and maintain existing codebases for performance and reliability.",
+        "Collaborate on code reviews and contribute to internal platform improvements.",
       ],
     },
   ],
@@ -293,9 +295,9 @@ export const portfolio: PortfolioData = {
     },
   ],
   seo: {
-    title: "Deepak Gouda | Software Developer & Instructor",
+    title: "Deepak Gouda | Software Developer & Backend Engineer",
     description:
-      "Portfolio of Deepak Gouda — Backend Engineer and Instructor specializing in microservices, cloud, cybersecurity, and AI/ML systems.",
+      "Portfolio of Deepak Gouda — Backend Engineer specializing in microservices, cloud, cybersecurity, and AI/ML systems.",
     url: "https://deepakgoudasirsi.github.io/deepak-portfolio",
     ogImage: "/opengraph-image",
   },
