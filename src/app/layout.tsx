@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   description: portfolio.seo.description,
   keywords: [
     "Deepak Gouda",
-    "Software Engineer",
+    "Software Development Engineer",
     "Backend Engineer",
     "Microservices",
     "Cybersecurity",

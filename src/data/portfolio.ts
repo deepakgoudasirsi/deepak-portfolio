@@ -4,7 +4,7 @@ const github = "https://github.com/deepakgoudasirsi";
 
 export const portfolio: PortfolioData = {
   name: "Deepak Gouda",
-  title: "Software Engineer | Backend & Cloud",
+  title: "Software Development Engineer | Bosscoder | Ex-Swiggy Intern | M.Tech CSE",
   tagline: "Hi, I'm Deepak Gouda 👋",
   intro:
     "I build scalable backend systems, cloud-native platforms, and security-focused applications. Experienced in microservices, CI/CD automation, and AI/ML integration for production environments.",
@@ -90,7 +90,7 @@ export const portfolio: PortfolioData = {
       ],
     },
     {
-      title: "Software Developer",
+      title: "Software Development Engineer",
       company: "Bosscoder",
       period: "2025 – Present",
       technologies: ["JavaScript", "TypeScript", "React", "Node.js", "Python"],
@@ -291,9 +291,9 @@ export const portfolio: PortfolioData = {
     },
   ],
   seo: {
-    title: "Deepak Gouda | Software Engineer — Backend & Cloud",
+    title: "Deepak Gouda | Software Development Engineer",
     description:
-      "Portfolio of Deepak Gouda — Software Engineer focused on backend systems, microservices, cloud, cybersecurity, and AI/ML. Ex-Swiggy intern.",
+      "Portfolio of Deepak Gouda — Software Development Engineer at Bosscoder, Ex-Swiggy Intern, M.Tech CSE. Backend systems, microservices, cloud, cybersecurity, and AI/ML.",
     url: "https://deepakgoudasirsi.github.io/deepak-portfolio",
     ogImage: "/opengraph-image",
   },
