@@ -9,7 +9,7 @@ export function About() {
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
         <SectionHeading
           eyebrow="About Me"
-          title="Building reliable, production-ready systems"
+          title="Backend engineer focused on production systems"
           description={portfolio.about.summary}
         />
 
